@@ -4,7 +4,7 @@ import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 
-export default function BoomCalendar(props) {
+function BoomCalendar(props) {
 
     const VIEW_PLUGINS = {
         month: dayGridPlugin,
@@ -40,3 +40,5 @@ export default function BoomCalendar(props) {
 		/>
 	)
 }
+
+module.exports = BoomCalendar
