@@ -22,7 +22,7 @@ export default function BoomCalendar(props) {
     } 
 
     function getViewPlugins(views) {
-        if(!views || !views.length) return APP_DEFAULTS.plugins;
+        if(!views || !views.length) return 'month';
         return views.filter(view => {
             if(!VIEW_PLUGINS.hasOwnProperty(view)) {
                 console.error('provided view type ' + view + ' is not listed in permitted views');
