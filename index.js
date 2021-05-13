@@ -9,9 +9,9 @@ exports["default"] = BoomCalendar;
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _interaction = _interopRequireDefault(require("@fullcalendar/interaction"));
-
 var _react2 = _interopRequireDefault(require("@fullcalendar/react"));
+
+var _interaction = _interopRequireDefault(require("@fullcalendar/interaction"));
 
 var _daygrid = _interopRequireDefault(require("@fullcalendar/daygrid"));
 
